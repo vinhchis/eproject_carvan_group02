@@ -1,0 +1,11 @@
+[
+  { "id": 0, "name": "Convertible", "desc": "Car with a folding top to become a convertible." },
+  { "id": 1, "name": "Couple", "desc": "Two-door car with a sporty design." },
+  { "id": 2, "name": "Hatchback", "desc": "Two-door car with rear window opening." },
+  { "id": 3, "name": "MPV", "desc": "Versatile family or travel car." },
+  { "id": 4, "name": "Sedan", "desc": "Four-door car with a separate trunk." },
+  { "id": 5, "name": "SUV", "desc": "Off-rsoad capable sports utility vehicle." },
+  { "id": 6, "name": "Trunk", "desc": "Sedan car with a rear compartment for luggage." },
+  { "id": 7, "name": "VAN", "desc": "Light cargo or passenger transport vehicle." },
+  { "id": 8, "name": "Wagon", "desc": "Station wagon car with a spacious rear area." }
+]

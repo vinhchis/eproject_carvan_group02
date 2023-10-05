@@ -1,0 +1,26 @@
+.dropdown-menu.show {
+  background: linear-gradient(#ffbb5c, #ff9b50, #e25e3e, #c63d2f);
+}
+
+.navdropdown-item:hover {
+  background-color: #c63d2f;
+}
+
+.carousel {
+  height: calc(100vh - 66px);
+} 
+
+.carousel-item {
+  text-align: center;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  height: calc(100vh - 66px);
+
+}
+
+.carousel-item h3 {
+  color: var(--main-color-3);
+  text-shadow: 1px 2px var(--main-color-4);
+}

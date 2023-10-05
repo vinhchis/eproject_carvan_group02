@@ -1,0 +1,26 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(to right, #ffbb5c, #ff9b50, #e25e3e, #c63d2f);
+}
+
+.navbar-collapse {
+  font-size: 20px;
+  width: 100%;
+}
+
+.navbar li {
+  list-style-type: none;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+}
+
+.navbar li a {
+  text-decoration: none;
+}

@@ -1,0 +1,26 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+/* Reset CSS */
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+:root {
+  /* Pattern Color */
+  --pattern-color-1: #004225;
+  --pattern-color-1: #f5f5dc;
+  --pattern-color-1: #ffb000;
+  --pattern-color-1: #ffcf9d;
+
+  /* main color */
+  --main-color-1: #ffbb5c;
+  --main-color-2: #ff9b50;
+  --main-color-3: #e25e3e;
+  --main-color-4: #c63d2f;
+}
+
+body {
+  max-height: 100vh;
+  position: relative;
+}

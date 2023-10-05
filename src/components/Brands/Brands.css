@@ -1,0 +1,28 @@
+.products-box img {
+    display: block;
+    height: 200px;
+    object-fit:  contain;
+    margin: 40px auto 36px;
+}
+
+.products-box a {
+    text-decoration: none;
+}
+.products-box .card-body {
+    border-top: 1px solid #ebebeb;
+}
+
+.products-box .card-title {
+    width: 100%;
+    display: block;
+    text-transform: capitalize;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.products-box .card-text {
+    font-size: 16px;
+    font-weight: 500;
+    color: #7e8e62;
+}

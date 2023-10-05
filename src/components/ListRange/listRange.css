@@ -1,0 +1,11 @@
+.range {
+    box-shadow: 5px 5px 5px 5px var(--main-color-2);
+}
+.range:hover {
+    transform: translateY(-15px);
+}
+
+.range .range-desc {
+    height: 2em;
+}
+

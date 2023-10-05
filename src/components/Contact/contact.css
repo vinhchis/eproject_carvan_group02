@@ -1,0 +1,40 @@
+.contact{
+    width: 100%;
+}
+
+.contact-feedback{
+    border: 1px solid black;
+    width: 100%;
+    max-width: 500px;
+    padding: 10px 50px;
+    box-shadow: 2px 3px red;
+    border-radius: 20px;
+    padding-bottom: 23px;
+}
+.contact-phone{
+    border: 1px solid black;
+    width: 100%;
+    max-width: 500px;
+    padding: 10px 50px;
+    box-shadow: 2px 3px red;
+    border-radius: 20px;
+}
+.contact-opportunity{
+    border: 1px solid black;
+    width: 100%;
+    max-width: 500px;
+    padding: 10px 50px;
+    margin-bottom: 10px;
+    box-shadow: 2px 3px red;
+    border-radius: 20px;
+}
+.contact-location{
+    border: 1px solid black;
+    width: 100%;
+    max-width: 500px;
+    padding: 10px 50px;
+    margin-bottom: 10px;
+    box-shadow: 2px 3px red;
+    border-radius: 20px;
+    padding-bottom: 18px;
+}

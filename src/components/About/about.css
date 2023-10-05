@@ -1,0 +1,213 @@
+/* About */
+.title {
+    text-align: center;
+    text-decoration: underline;
+    color: #C63D2F;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 50px;
+  }
+  .whoweare{
+    padding: 0 80px;
+  }
+  .carvan-content{
+    background-color: #F5F5DC;
+  }
+  
+  .content-about .describe{
+    padding:80px 80px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .content-about{
+    font-size: 25px;
+  }
+  
+  .slogan-logo{
+    padding: 20px 50px;
+    font-size: 100px;
+    color:#FFB000;
+  }
+  
+  /* BMW */
+
+  .bmw{
+    font-size: 25px;
+    padding: 20px 40px;
+    text-decoration: none;
+    display: flex;
+    color: black;
+  }
+  
+  
+  .brand-bmw{
+    font-weight: bold;
+    margin-left: 80px;
+    margin-top: 40px;
+  }
+  
+  .detail-bmw{
+    padding: 20px 50px;
+  }
+  
+  /* Mercedes */
+  .mercedes{
+    font-size: 25px;
+    padding: 20px 40px;
+    text-decoration: none;
+    display: flex;
+    color: black;
+  }
+  
+  .detail-mercedes{
+    padding: 20px 50px;
+  }
+  .brand-mercedes{
+    font-weight: bold;
+    margin-left: 60px;
+    margin-top: 40px;
+  }
+  
+  /* Toyota */
+  .toyota{
+    font-size: 25px;
+    padding: 20px 40px;
+    text-decoration: none;
+    display: flex;
+    color: black;
+  }
+  
+  
+  .brand-toyota{
+    font-weight: bold;
+    margin-left: 100px;
+  }
+  
+  .detail-toyota{
+    padding: 20px 50px;
+  }
+  /* Ford */
+  .ford{
+    font-size: 25px;
+    padding: 20px 40px;
+    text-decoration: none;
+    display: flex;
+    color: black;
+  }
+  
+  .detail-ford{
+    padding: 20px 50px;
+  }
+  .brand-ford{
+    font-weight: bold;
+    margin-left: 130px;
+    margin-top: 50px;
+  }
+  
+  /* Mazda */
+  .mazda{
+    font-size: 25px;
+    padding: 20px 40px;
+    text-decoration: none;
+    display: flex;
+    color: black;
+  }
+  
+  
+  .brand-mazda{
+    font-weight: bold;
+    margin-left: 90px;
+  }
+  
+  .detail-mazda{
+    padding: 20px 50px;
+  }
+  
+  /* Honda */
+  .honda{
+    font-size: 25px;
+    padding: 20px 40px;
+    text-decoration: none;
+    display: flex;
+    color: black;
+  }
+  
+  .detail-honda{
+    padding: 20px 50px;
+  }
+  .brand-honda{
+    font-weight: bold;
+    margin-left: 80px;
+  }
+  /* Hyundai */
+  .hyundai{
+    font-size: 25px;
+    padding: 20px 40px;
+    text-decoration: none;
+    display: flex;
+    color: black;
+  }
+  
+  
+  .brand-hyundai{
+    font-weight: bold;
+    margin-left: 50px;
+    margin-bottom: 40px;
+  }
+  
+  .detail-hyundai{
+    padding: 20px 50px;
+  }
+  
+  /* KIA */
+  .kia{
+    font-size: 25px;
+    padding: 20px 40px;
+    text-decoration: none;
+    display: flex;
+    color: black;
+  }
+  
+  .detail-kia{
+    padding: 20px 50px;
+  }
+  .brand-kia{
+    font-weight: bold;
+    margin-left: 120px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  
+  
+  /* Detail More */
+  .detailmore{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+  }
+  
+  .detailmore:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    color: black;
+  }
+  /* End About */
+
+
+  .col-item{
+    display: flex;
+  }
+
+  .about-logo{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 100px;
+  }
+
+  .grid-layout{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+  }

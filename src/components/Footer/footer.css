@@ -1,0 +1,37 @@
+footer {
+  width: 100%;
+  padding-bottom: 10px;
+  width: 100%;
+  align-items: center;
+  background: #e25e3e;
+  color: #fff;
+}
+
+/* Social */
+.social {
+  width: 100%;
+  text-align: center;
+}
+
+.social svg {
+  width: 50px;
+  height: 50px;
+  margin: 0 40px;
+  color: #ff9a62;
+}
+/* Slogan */
+.slogan {
+  font-size: 46px;
+  text-align: center;
+}
+
+.slogan span {
+  font-family: Arial;
+  font-weight: bold;
+}
+
+/* Intro */
+.intro {
+  font-size: 20px;
+  text-align: center;
+}

@@ -1,0 +1,10 @@
+/* SignUp */
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  max-width: 100%;
+}
+/* End SignUp */
