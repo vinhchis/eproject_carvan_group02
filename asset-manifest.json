@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/eproject_carvan_group02/static/css/main.303c58ef.css",
-    "main.js": "/eproject_carvan_group02/static/js/main.092e46d9.js",
+    "main.css": "/eproject_carvan_group02/static/css/main.c7fe92de.css",
+    "main.js": "/eproject_carvan_group02/static/js/main.11e89f0c.js",
     "static/media/68.png": "/eproject_carvan_group02/static/media/68.238a3f961da64fe9cb75.png",
     "static/media/85.png": "/eproject_carvan_group02/static/media/85.ca59e4725070e70fe21b.png",
     "static/media/47.png": "/eproject_carvan_group02/static/media/47.2f7486d9fc144b108747.png",
@@ -118,12 +118,13 @@
     "static/media/Hatchback.svg": "/eproject_carvan_group02/static/media/Hatchback.07c03c472c21b91d6f40.svg",
     "static/media/5.png": "/eproject_carvan_group02/static/media/5.6c406cfe6431c451f166.png",
     "static/media/VAN.svg": "/eproject_carvan_group02/static/media/VAN.77f1f8cdcb7db2e5f0bb.svg",
+    "static/media/cd-icon-cart.svg": "/eproject_carvan_group02/static/media/cd-icon-cart.547c39bcbf6bdbd672f0.svg",
     "index.html": "/eproject_carvan_group02/index.html",
-    "main.303c58ef.css.map": "/eproject_carvan_group02/static/css/main.303c58ef.css.map",
-    "main.092e46d9.js.map": "/eproject_carvan_group02/static/js/main.092e46d9.js.map"
+    "main.c7fe92de.css.map": "/eproject_carvan_group02/static/css/main.c7fe92de.css.map",
+    "main.11e89f0c.js.map": "/eproject_carvan_group02/static/js/main.11e89f0c.js.map"
   },
   "entrypoints": [
-    "static/css/main.303c58ef.css",
-    "static/js/main.092e46d9.js"
+    "static/css/main.c7fe92de.css",
+    "static/js/main.11e89f0c.js"
   ]
 }
