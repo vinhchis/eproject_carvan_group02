@@ -5,7 +5,6 @@ import { FaUserCircle } from "react-icons/fa";
 import "./header.css";
 import { Link } from "react-router-dom";
 
-
 function Header() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary navbar-item">
@@ -15,11 +14,21 @@ function Header() {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav" className="navbar-collapse">
         <Nav className="me-auto">
-          <Link className="nav-link" to="/brands">Brands</Link>
-          <Link className="nav-link" to="/ranges">Range of Cars</Link>
-          <Link className="nav-link" to="/cars">PreOwned Cars</Link>
-          <Link className="nav-link" to="/about">About CARVAN</Link>
-          <Link className="nav-link"  to="/contact">Contact Us</Link>
+          <Link className="nav-link" to="/brands">
+            Brands
+          </Link>
+          <Link className="nav-link" to="/ranges">
+            Range of Cars
+          </Link>
+          <Link className="nav-link" to="/cars">
+            PreOwned Cars
+          </Link>
+          <Link className="nav-link" to="/about">
+            About CARVAN
+          </Link>
+          <Link className="nav-link" to="/contact">
+            Contact Us
+          </Link>
           <Link className="nav-link" to="/signup">
             <FaUserPlus />
             SignUp
@@ -27,6 +36,9 @@ function Header() {
           <Link className="nav-link" to="/signin">
             <FaUserCircle />
             Login
+          </Link>
+          <Link className="nav-link" class="cd-cart" to="/cart">
+            <span>0</span>
           </Link>
         </Nav>
       </Navbar.Collapse>

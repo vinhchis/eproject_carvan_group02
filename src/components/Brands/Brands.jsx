@@ -4,7 +4,7 @@ import brandDB from "../../data/brands.json";
 import { useNavigate } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 
-const Brands = ({setBrandIdSelected}) => {
+const Brands = () => {
   const [brands, setBrands] = useState(brandDB);
   const navigate = useNavigate();
   return (
@@ -12,7 +12,7 @@ const Brands = ({setBrandIdSelected}) => {
       <div className="products-box">
         <div className="row " style={{ marginTop: 35 }}>
           {brands.map((brand) => (
-            <div className="col-md-4 col-lg-3 col-6 pb-4">
+            <div className="col-md-4 col-lg-3 col-6 pb-4" key={brand.id}>
               <div className="card">
                 <a href="#">
                   <img
@@ -26,12 +26,11 @@ const Brands = ({setBrandIdSelected}) => {
                     className="button-list"
                     variant="primary"
                     onClick={() => {
-                      setBrandIdSelected(brand.id);
-                      navigate(`/cars/brand/${brand.id}`);
+                      navigate(`/cars/brand/${brand.name}`);
                     }}
                   >
                     <div>
-                      <h3 style={{ "font-variant": "small-caps" }}>
+                      <h3 style={{ fontVariant: "small-caps" }}>
                         {brand.name}
                       </h3>
                     </div>

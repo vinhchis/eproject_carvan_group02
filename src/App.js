@@ -13,27 +13,20 @@ import About from "./components/About/About";
 import CarDetail from "./components/CarDetail/CarDetail";
 import Contact from "./components/Contact/Contact";
 import Brands from "./components/Brands/Brands";
-import BrandCars from "./components/Brands/BrandCars";
-
-  //"homepage": "https://vinhchis.github.io/carvan",
+import ListCarByRange from "./components/ListCar/ListCarByRange";
+import ListCarByBrand from "./components/ListCar/ListCarByBrand";
+import Cart from "./components/Cart/Cart";
 
 function App() {
-  const [rangeIdSelected, setRangeIdSelected] = useState({});
-  const [brandIdSelected, setBrandIdSelected] = useState({});
-
-
   return (
     <>
       <Header />
       <Routes>
-        {/* <Route exact path="/" component={<Home />} /> */}
-
         <Route path="/" element={<Home />} />
-        <Route path="/brands" element={<Brands setBrandIdSelected={setBrandIdSelected} />} />
-        <Route path="/ranges" element={<ListRange setRangeIdSelected={setRangeIdSelected} />} />
-        <Route path="/cars/range/:id" element={<ListCar rangeIdSelected={rangeIdSelected} />} />
-        {/* <Route path="/cars/brand/:id" element={<BrandCars />} /> */}
-        <Route path="/cars/brand/:id" element={<ListCar brandIdSelected={brandIdSelected} />} />
+        <Route path="/brands" element={<Brands />} />
+        <Route path="/ranges" element={<ListRange />} />
+        <Route path="/cars/range/:rName" element={<ListCarByRange />} />
+        <Route path="/cars/brand/:bName" element={<ListCarByBrand />} />
 
         <Route path="/cars" element={<ListCar />} />
         <Route path="/cars/:id" element={<CarDetail />} />
@@ -41,6 +34,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/signIn" element={<SignIn />} />
         <Route path="/signUp" element={<SignUp />} />
+        <Route path="/cart" element={<Cart />} />
 
       </Routes>
       <Footer />

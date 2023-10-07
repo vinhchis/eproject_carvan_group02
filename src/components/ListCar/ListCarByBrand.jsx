@@ -8,16 +8,21 @@ import SearchBar from "../Search/SearchBar";
 import "./listCar.css";
 import { useParams } from "react-router-dom";
 import CarDB from "../../data/cars.json";
-import RangeDB from "../../data/ranges.json";
-import BrandDB from "../../data/brands.json";
 
-function ListCar() {
-  // const {rangeN} = useParams();
-  const [cars, setCars] = useState(CarDB);
+function ListCarByBrand() {
+  const { bName } = useParams();
+  const [cars, setCars] = useState([]);
+  const filtedCars = CarDB.filter(
+    (car) => car.brand.toUpperCase() === bName.toUpperCase()
+  );
 
   useEffect(() => {
-    setCars(CarDB);
-  },[]);
+    setCars(
+      CarDB.filter(
+        (car) => car.brand.toUpperCase() === bName.toLocaleUpperCase()
+      )
+    );
+  }, [bName]);
 
   //  filter by year
   const menuItems = [...new Set(cars.map((car) => car.year))];
@@ -38,24 +43,27 @@ function ListCar() {
           filterItem={filterItem}
           setItem={setCars}
           menuItems={menuItems}
+          data={filtedCars}
         />
       </Row>
       <Row>
-        <p className="count">There are {cars.length} cars</p>
+        <p className="count">
+          There are {cars.length} cars belonging to the{" "}
+          <span style={{ fontStyle: "italic" }}></span>
+          {bName} brand
+        </p>
       </Row>
       <Row>
-        {cars.length > 0 ? (
-          cars.map((car) => (
-            <Col xl={3} className="mb-3" key={car.id}>
-              <Car carInfo={car} />
-            </Col>
-          ))
-        ) : (
-          <p>No cars available</p>
-        )}
+        {cars.length > 0
+          ? cars.map((car) => (
+              <Col xl={3} className="mb-3" key={car.id}>
+                <Car carInfo={car} />
+              </Col>
+            ))
+          : null}
       </Row>
     </Container>
   );
 }
 
-export default ListCar;
+export default ListCarByBrand;

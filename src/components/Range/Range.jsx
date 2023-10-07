@@ -1,13 +1,12 @@
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import { useNavigate } from "react-router-dom";
-import "./range.css"
+import "./range.css";
 
-function Range({ range , setRangeIdSelected}) {
+function Range({ range }) {
   const navigate = useNavigate();
   return (
     <Card className="range text-center">
-      {/* <Card.Header>{`${range.count} cars`}</Card.Header> */}
       <Card.Img
         variant="top"
         src={require(`../../assets/image/ranges/${range.name}.svg`)}
@@ -19,14 +18,12 @@ function Range({ range , setRangeIdSelected}) {
           className="button-list"
           variant="primary"
           onClick={() => {
-            setRangeIdSelected(range.id);
-            navigate(`/cars/range/${range.id}`)
+            navigate(`/cars/range/${range.name}`);
           }}
         >
           List Car
         </Button>
       </Card.Body>
-      {/* <Card.Footer className="text-muted">n items</Card.Footer> */}
     </Card>
   );
 }

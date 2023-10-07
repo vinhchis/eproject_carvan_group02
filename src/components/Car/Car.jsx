@@ -5,6 +5,7 @@ import CarImg from "../../assets/image/cars/Vinfast.webp";
 import "./car.css";
 
 import { BsFuelPumpDiesel } from "react-icons/bs";
+import {RxColumnSpacing} from "react-icons/rx";
 
 function getImagePath(carId) {
   try {
@@ -33,7 +34,7 @@ function Car({ carInfo }) {
       <Card.Body>
         <Card.Title>{`${car.year} ${car.brand} ${car.name}`}</Card.Title>
         <ListGroup>
-          <ListGroup.Item>{car.odo} km</ListGroup.Item>
+          <ListGroup.Item><RxColumnSpacing/> {car.odo} km</ListGroup.Item>
           <ListGroup.Item>{car.transmission}</ListGroup.Item>
           <ListGroup.Item>
             <BsFuelPumpDiesel />
