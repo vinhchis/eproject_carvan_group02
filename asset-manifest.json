@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/eproject_carvan_group02/static/css/main.c7fe92de.css",
-    "main.js": "/eproject_carvan_group02/static/js/main.11e89f0c.js",
+    "main.css": "/eproject_carvan_group02/static/css/main.141d8b89.css",
+    "main.js": "/eproject_carvan_group02/static/js/main.03bda31e.js",
     "static/media/68.png": "/eproject_carvan_group02/static/media/68.238a3f961da64fe9cb75.png",
     "static/media/85.png": "/eproject_carvan_group02/static/media/85.ca59e4725070e70fe21b.png",
     "static/media/47.png": "/eproject_carvan_group02/static/media/47.2f7486d9fc144b108747.png",
@@ -9,9 +9,12 @@
     "static/media/64.png": "/eproject_carvan_group02/static/media/64.61a6d990b5b7a1e36a54.png",
     "static/media/42.png": "/eproject_carvan_group02/static/media/42.96825677441c6c201a0e.png",
     "static/media/8.png": "/eproject_carvan_group02/static/media/8.cd82f842ff37183fd779.png",
+    "static/media/Frame 3.png": "/eproject_carvan_group02/static/media/Frame 3.f065aebcc9f15c888bbd.png",
     "static/media/77.png": "/eproject_carvan_group02/static/media/77.c508c46a238df8f0a0e6.png",
     "static/media/69.png": "/eproject_carvan_group02/static/media/69.6253f407b140dc82928f.png",
+    "static/media/Frame 2.png": "/eproject_carvan_group02/static/media/Frame 2.814147afcfbd543ca814.png",
     "static/media/67.png": "/eproject_carvan_group02/static/media/67.1af18d0d648c5513fdc8.png",
+    "static/media/Frame 1.png": "/eproject_carvan_group02/static/media/Frame 1.e21e77f6682c6c847882.png",
     "static/media/51.png": "/eproject_carvan_group02/static/media/51.d2e80485c21198a05fe8.png",
     "static/media/11.png": "/eproject_carvan_group02/static/media/11.36f7b96329301888ec4d.png",
     "static/media/55.png": "/eproject_carvan_group02/static/media/55.194a40f946282a5f990c.png",
@@ -35,9 +38,7 @@
     "static/media/21.png": "/eproject_carvan_group02/static/media/21.3014f893d642fb973e06.png",
     "static/media/99.png": "/eproject_carvan_group02/static/media/99.25737433ae0522e646ef.png",
     "static/media/95.png": "/eproject_carvan_group02/static/media/95.bd1be7e27b14d7eaa794.png",
-    "static/media/c3.jpg": "/eproject_carvan_group02/static/media/c3.7151b996c2b4f184ca48.jpg",
     "static/media/40.png": "/eproject_carvan_group02/static/media/40.7cd2576502e9b81d116c.png",
-    "static/media/c2.jpg": "/eproject_carvan_group02/static/media/c2.96221b793272f2e64bef.jpg",
     "static/media/ford.png": "/eproject_carvan_group02/static/media/ford.375c530a924b01fad29e.png",
     "static/media/honda.png": "/eproject_carvan_group02/static/media/honda.1176a33873307b994281.png",
     "static/media/49.png": "/eproject_carvan_group02/static/media/49.61f7c5a7ec54f1c74500.png",
@@ -49,7 +50,6 @@
     "static/media/98.png": "/eproject_carvan_group02/static/media/98.58a781bca8e5961d9571.png",
     "static/media/16.png": "/eproject_carvan_group02/static/media/16.3fdb5da4033c431db535.png",
     "static/media/82.png": "/eproject_carvan_group02/static/media/82.b053b6cb4afda33c1797.png",
-    "static/media/c1.jpg": "/eproject_carvan_group02/static/media/c1.4cc9885308b446dce129.jpg",
     "static/media/54.png": "/eproject_carvan_group02/static/media/54.56c065523d76116d4d17.png",
     "static/media/84.png": "/eproject_carvan_group02/static/media/84.92cd7723af472391503c.png",
     "static/media/52.png": "/eproject_carvan_group02/static/media/52.3add11133ea748ca9c29.png",
@@ -120,11 +120,11 @@
     "static/media/VAN.svg": "/eproject_carvan_group02/static/media/VAN.77f1f8cdcb7db2e5f0bb.svg",
     "static/media/cd-icon-cart.svg": "/eproject_carvan_group02/static/media/cd-icon-cart.547c39bcbf6bdbd672f0.svg",
     "index.html": "/eproject_carvan_group02/index.html",
-    "main.c7fe92de.css.map": "/eproject_carvan_group02/static/css/main.c7fe92de.css.map",
-    "main.11e89f0c.js.map": "/eproject_carvan_group02/static/js/main.11e89f0c.js.map"
+    "main.141d8b89.css.map": "/eproject_carvan_group02/static/css/main.141d8b89.css.map",
+    "main.03bda31e.js.map": "/eproject_carvan_group02/static/js/main.03bda31e.js.map"
   },
   "entrypoints": [
-    "static/css/main.c7fe92de.css",
-    "static/js/main.11e89f0c.js"
+    "static/css/main.141d8b89.css",
+    "static/js/main.03bda31e.js"
   ]
 }
