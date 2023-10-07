@@ -2,13 +2,15 @@
   "homepage": "https://vinhchis.github.io/eproject_carvan_group02",
   "dependencies": {
     "bootstrap": "^5.3.2",
+    "formik": "^2.4.5",
     "mdb-react-ui-kit": "^6.3.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.8.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.11.0",
     "react-router-dom": "^6.16.0",
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^5.0.1",
+    "yup": "^1.3.2"
   },
   "scripts": {
     "start": "react-scripts start",
